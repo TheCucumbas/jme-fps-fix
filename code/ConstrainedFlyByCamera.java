@@ -372,7 +372,6 @@ public class ConstrainedFlyByCamera implements AnalogListener, ActionListener {
             moveCamera(value, false);
         }else if (name.equals("FLYCAM_Backward")){
             moveCamera(-value, false);
-            System.out.println("it Worked!!");
         }else if (name.equals("FLYCAM_StrafeLeft")){
             moveCamera(value, true);
         }else if (name.equals("FLYCAM_StrafeRight")){
